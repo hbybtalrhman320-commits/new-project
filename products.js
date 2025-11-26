@@ -1,34 +1,30 @@
 const products = [
-    { id:1, name:"كمبيوتر مكتبي Core i7", desc:"RAM 16GB • SSD 512GB", price:"12000 جنيه",
+    { id:1, name:"كمبيوتر مكتبي Core i7", desc:"RAM 16GB • SSD 512GB", price:"12,000 جنيه",
       image:"https://images.pexels.com/photos/18105/pexels-photo.jpg", category:"كمبيوتر" },
 
-    { id:2, name:"شاشة Samsung 27\"", desc:"144Hz • FHD", price:"5500 جنيه",
+    { id:2, name:"شاشة Samsung 27\"", desc:"144Hz • FHD", price:"5,500 جنيه",
       image:"https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg", category:"شاشات" },
 
     { id:3, name:"كيبورد ميكانيكال RGB", desc:"Blue Switch • RGB", price:"850 جنيه",
       image:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQhlv8ZjYZkIEUPlRKbHHgGA3HVzWYzofoylOopiV0FfF_QgXtpWvJ623EqeQLx6JEEAzXM9eUsFcz7TPl1av8fdnotG6Y_fCHg5eknL6rOEatsZJIpgcykaXyvkEvV9HXsRf8mVJeeAds&usqp=CAc", category:"اكسسوارات" },
 
     { id:4, name:"ماوس جيمينج RGB", desc:"12000 DPI • 7 Buttons", price:"350 جنيه",
-      image:"https://images-na.ssl-images-amazon.com/images/I/41AYxbXPPNL._SL500_._AC_SL500_.jpg", 
-      category:"اكسسوارات" },
+      image:"https://images-na.ssl-images-amazon.com/images/I/41AYxbXPPNL._SL500_._AC_SL500_.jpg", category:"اكسسوارات" },
 
-    { id:5, name:"لاب توب HP i5", desc:"Ram 8GB • SSD 256GB", price:"14500 جنيه",
+    { id:5, name:"لاب توب HP i5", desc:"Ram 8GB • SSD 256GB", price:"14,500 جنيه",
       image:"https://images.pexels.com/photos/18105/pexels-photo.jpg", category:"كمبيوتر" },
 
-    { id:6, name:"لاب توب Lenovo i7", desc:"Ram 16GB • SSD 512GB", price:"18500 جنيه",
+    { id:6, name:"لاب توب Lenovo i7", desc:"Ram 16GB • SSD 512GB", price:"18,500 جنيه",
       image:"https://images.pexels.com/photos/18105/pexels-photo.jpg", category:"كمبيوتر" },
 
-    { id:7, name:"سماعة HyperX", desc:"Surround 7.1 • USB", price:"1200 جنيه",
-      image:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRACCRBXxPvnqtKrVoRnES0KAqUpi8P6tkxipS96GaDR8P8K-KQKofNWW7-zkdGHJL_8w78Pd7WTxlsz_XWmqGzz2ELLllCw-0qTHPc3gk8rY3skfySYEP1r2AKak3CGAZho8Q2SU0&usqp=CAc", 
-      category:"اكسسوارات" },
+    { id:7, name:"سماعة HyperX", desc:"Surround 7.1 • USB", price:"1,200 جنيه",
+      image:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRACCRBXxPvnqtKrVoRnES0KAqUpi8P6tkxipS96GaDR8P8K-KQKofNWW7-zkdGHJL_8w78Pd7WTxlsz_XWmqGzz2ELLllCw-0qTHPc3gk8rY3skfySYEP1r2AKak3CGAZho8Q2SU0&usqp=CAc", category:"اكسسوارات" },
 
-    { id:8, name:"شاشة LG 24\"", desc:"75Hz • IPS", price:"3200 جنيه",
+    { id:8, name:"شاشة LG 24\"", desc:"75Hz • IPS", price:"3,200 جنيه",
       image:"https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg", category:"شاشات" },
 
-    // الصور اللي انتي طلبتي تتغير
-    { id:9, name:"هارد خارجي 1TB", desc:"USB 3.0", price:"1500 جنيه",
-      image:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTfDJG-Nt2W4p5G_APac3fr3Y7pCd1B_KWhPDBZtathkQWaS8yQFvjfiPZn6qbRe3FuM8sOdSYUNOaatvuCxjuuoM0fwLZYtokPWJRPoIIU8bcNMPxuFOc4wc3TBqmLgUqNHw6F8TqB7A&usqp=CAc", 
-      category:"اكسسوارات" },
+    { id:9, name:"هارد خارجي 1TB", desc:"USB 3.0", price:"1,500 جنيه",
+      image:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTfDJG-Nt2W4p5G_APac3fr3Y7pCd1B_KWhPDBZtathkQWaS8yQFvjfiPZn6qbRe3FuM8sOdSYUNOaatvuCxjuuoM0fwLZYtokPWJRPoIIU8bcNMPxuFOc4wc3TBqmLgUqNHw6F8TqB7A&usqp=CAc", category:"اكسسوارات" },
 
     { id:10, name:"ميكروفون احترافي", desc:"Plug & Play", price:"900 جنيه",
       image:"https://images.pexels.com/photos/3394667/pexels-photo-3394667.jpeg", category:"اكسسوارات" },
@@ -55,11 +51,10 @@ function displayProducts(list) {
             <p>${product.desc}</p>
             <span class="price">${product.price}</span>
 
-            <button class="btn" onclick="addToCart(${product.id})">Add to Cart</button>
-
-            <a href="product-details.html?id=${product.id}" class="btn" style="background:#4da6ff;">
-                عرض التفاصيل
-            </a>
+            <div class="card-buttons">
+                <button class="btn-add" onclick="addToCart(${product.id})">أضف إلى العربة</button>
+                <a href="product-details.html?id=${product.id}" class="btn-details">عرض التفاصيل</a>
+            </div>
         </div>`;
     });
 }
@@ -69,7 +64,7 @@ function addToCart(id) {
     const product = products.find(p => p.id === id);
     cart.push(product);
     cartCount.textContent = cart.length;
-    alert(product.name + " تم إضافته إلى العربة!");
+    alert(`تم إضافة "${product.name}" إلى العربة!`);
 }
 
 // بحث وفلترة

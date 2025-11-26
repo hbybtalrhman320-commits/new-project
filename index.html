@@ -3,40 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>متجر أجهزة كمبيوتر</title>
+    <title>Tech Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <!-- الهيدر -->
     <header class="header">
-        <h1>متجر الكمبيوتر</h1>
-        <p>أفضل الأجهزة والإكسسوارات بألوان هادئة وجذابة</p>
-        <div style="margin-top:10px; font-size:1.2em;">
-            🛒 العربة: <span id="cartCount">0</span> منتجات
+        <h1>Tech Store</h1>
+        <p>أحدث أجهزة الكمبيوتر والإكسسوارات الموثوقة بجودة عالية وأسعار تنافسية</p>
+        <div class="cart-box">
+            🛒 العربة: <span id="cartCount">0</span> منتج
         </div>
     </header>
 
     <!-- البحث والفلتر -->
     <div class="container controls">
-        <input type="text" id="searchInput" placeholder="ابحث عن منتج...">
+        <input type="text" id="searchInput" placeholder="ابحث عن جهازك المفضل...">
         <select id="categoryFilter">
-            <option value="all">كل الأقسام</option>
-            <option value="كمبيوتر">كمبيوتر</option>
-            <option value="شاشات">شاشات</option>
-            <option value="اكسسوارات">اكسسوارات</option>
+            <option value="all">كل المنتجات</option>
+            <option value="كمبيوتر">أجهزة كمبيوتر</option>
+            <option value="شاشات">شاشات احترافية</option>
+            <option value="اكسسوارات">إكسسوارات تقنية</option>
         </select>
     </div>
 
     <!-- شبكة المنتجات -->
-    <div class="container product-grid" id="productList"></div>
+    <div class="container product-grid" id="productList">
+        <!-- المنتجات هتتضاف من JS -->
+    </div>
 
     <!-- الفوتر -->
     <footer class="footer">
-        جميع الحقوق محفوظة © 2025
+        © 2025 Tech Store — الجودة تبدأ من هنا
     </footer>
 
-    <!-- ضع السكربت في آخر الصفحة -->
     <script src="products.js"></script>
 </body>
 </html>
