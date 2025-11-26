@@ -6,10 +6,10 @@ const products = [
       image:"https://images.pexels.com/photos/306763/pexels-photo-306763.jpeg", category:"شاشات" },
 
     { id:3, name:"كيبورد ميكانيكال RGB", desc:"Blue Switch • RGB", price:"850 جنيه",
-      image:"https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg", category:"اكسسوارات" },
+      image:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQhlv8ZjYZkIEUPlRKbHHgGA3HVzWYzofoylOopiV0FfF_QgXtpWvJ623EqeQLx6JEEAzXM9eUsFcz7TPl1av8fdnotG6Y_fCHg5eknL6rOEatsZJIpgcykaXyvkEvV9HXsRf8mVJeeAds&usqp=CAc", category:"اكسسوارات" },
 
     { id:4, name:"ماوس جيمينج RGB", desc:"12000 DPI • 7 Buttons", price:"350 جنيه",
-      image:"https://raw.githubusercontent.com/ismail023/hosted-images/main/rgb-mouse.jpg", 
+      image:"https://images-na.ssl-images-amazon.com/images/I/41AYxbXPPNL._SL500_._AC_SL500_.jpg", 
       category:"اكسسوارات" },
 
     { id:5, name:"لاب توب HP i5", desc:"Ram 8GB • SSD 256GB", price:"14500 جنيه",
@@ -19,7 +19,7 @@ const products = [
       image:"https://images.pexels.com/photos/18105/pexels-photo.jpg", category:"كمبيوتر" },
 
     { id:7, name:"سماعة HyperX", desc:"Surround 7.1 • USB", price:"1200 جنيه",
-      image:"https://raw.githubusercontent.com/ismail023/hosted-images/main/hyperx-headset.jpg", 
+      image:"https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRACCRBXxPvnqtKrVoRnES0KAqUpi8P6tkxipS96GaDR8P8K-KQKofNWW7-zkdGHJL_8w78Pd7WTxlsz_XWmqGzz2ELLllCw-0qTHPc3gk8rY3skfySYEP1r2AKak3CGAZho8Q2SU0&usqp=CAc", 
       category:"اكسسوارات" },
 
     { id:8, name:"شاشة LG 24\"", desc:"75Hz • IPS", price:"3200 جنيه",
@@ -27,7 +27,7 @@ const products = [
 
     // الصور اللي انتي طلبتي تتغير
     { id:9, name:"هارد خارجي 1TB", desc:"USB 3.0", price:"1500 جنيه",
-      image:"https://raw.githubusercontent.com/ismail023/hosted-images/main/external-hdd.jpg", 
+      image:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTfDJG-Nt2W4p5G_APac3fr3Y7pCd1B_KWhPDBZtathkQWaS8yQFvjfiPZn6qbRe3FuM8sOdSYUNOaatvuCxjuuoM0fwLZYtokPWJRPoIIU8bcNMPxuFOc4wc3TBqmLgUqNHw6F8TqB7A&usqp=CAc", 
       category:"اكسسوارات" },
 
     { id:10, name:"ميكروفون احترافي", desc:"Plug & Play", price:"900 جنيه",
